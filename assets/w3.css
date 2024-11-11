@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    padding: 10px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    color: gray;
+    
+}
+.first{
+    display: flex;
+    align-items: center;
+    padding: 0px 210px;
+}
+.Bright {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.b3{
+    height: 55vh;
+    width: 45vw;
+   
+}
+.right{
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+    padding: 8px; 
+}
+.we{
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: small;
+}
+.right h1{
+    font-size: 30px;
+}
+.bu{
+    width: 10vw;
+    height: 5vh;
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+    text-align: center;
+}
+
+.second{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.alot{
+    display: flex;
+    gap: 15px;
+    width: 20vw;
+    align-items: center;
+}
+.con {
+    height: 20vh;
+    width: 8vw;
+}
+.two h3{
+    color: orange;
+    font-size: xx-large;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.two2{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.two2 h3{
+    color: orange;
+    font-size: xx-large;
+}
+.two2 p{
+    font-size: 8px;
+}
+.two1 p{
+    font-size: 8px;
+}
+.two1 h3{
+    color: orange;
+    font-size: xx-large;
+}
+
+.yato{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 77vh;
+    padding: 20px;
+    background-color: hsl(240, 100%, 5%);
+}
+.yato h1{
+    color: orange;
+}
+.hydo{
+  display: flex;  
+  flex-direction: column;
+  gap: 13px;
+}
+.hydo h4{
+    color: white;
+
+}
+.hydo p{
+     font-size: small;
+     color: whitesmoke;
+}
+.jago{
+    display: none;
+}
+
+
+@media  screen and (max-width: 950px){
+    ul{
+        display: none;  
+    }
+    .first{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .b3{
+        height: 70vh ;
+        width: 25pc;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+    }
+    .right h1{
+        font-size: 50px;
+    }
+    .we p{
+        font-size: 22px;
+    }
+    .bu{
+        width: 30vw;
+    }
+    .yato{
+        
+        width: 90vw;
+    }
+    .hydo h4,.hydo p{
+        font-size: 25px;
+    }
+    .second{
+        display: flex;
+        flex-direction: column;
+        align-items:start;
+        margin-left: 10%;
+        overflow: hidden;
+
+    }
+    .con {
+    height: 20vh;
+    width: 25vw;
+    }
+    .two{
+        font-size: 15px;
+    }
+    .jago{
+        display: flex;
+    }
+    nav{
+        display: flex;
+        overflow: hidden;
+        justify-content: space-between;
+    }
+   .two2 p{
+    font-size: 15px;
+    width: 35vw;
+   }
+   .two1 p{
+    font-size: 15px;
+    width: 35vw;
+   }
+}
